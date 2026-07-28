@@ -24,7 +24,7 @@ Se ha desarrollado un software estructurado de manera modular que integra algori
 *   **Desenfocado Extremo:** El sistema no puede recuperar caracteres cuando la pérdida de información de los píxeles en la imagen original es absoluta (irreversible).
 *   **Inclinación Excesiva:** Si el ángulo de la placa es demasiado extremo, la corrección de perspectiva matemática (aplanamiento) deforma la morfología de las letras, provocando fallos en la lectura del OCR.
 
-## 📂 Estructura del Repositorio
+##  Estructura del Repositorio
 El código está organizado modularmente para separar la interfaz gráfica de la lógica de procesamiento y visión por computadora:
 
 *   `app.py`: Archivo principal que contiene la interfaz gráfica de usuario y la orquestación del programa.
