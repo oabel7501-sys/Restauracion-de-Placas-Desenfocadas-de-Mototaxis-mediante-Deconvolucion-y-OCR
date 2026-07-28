@@ -28,7 +28,7 @@ Se ha desarrollado un software estructurado de manera modular que integra algori
 El código está organizado modularmente para separar la interfaz gráfica de la lógica de procesamiento y visión por computadora:
 
 *   `app.py`: Archivo principal que contiene la interfaz gráfica de usuario y la orquestación del programa.
-*   `utils/`: Directorio que contiene todas las librerías y módulos específicos del procesamiento.
+*   `librerias/`: Directorio que contiene todas las librerías y módulos específicos del procesamiento.
     *   `__init__.py`: Inicializador del módulo.
     *   `auto_crop.py`: Lógica para la detección automática de placas mediante algoritmos de color.
     *   `config.py`: Variables de configuración y constantes globales.
